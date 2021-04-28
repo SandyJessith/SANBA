@@ -1,0 +1,15 @@
+ public void onClick(View v) {
+                Intent miIntent = null;
+
+                switch (v.getId()){
+                    case R.id.btnVolver:
+                        miIntent = new Intent(Buque.this, MainActivity.class);
+                        break;
+                    case R.id.terminosDefiniciones:
+                        miIntent = new Intent(Buque.this, Capitulo17_1_3.class);
+                        break;
+
+                }
+
+                startActivity(miIntent);
+            }

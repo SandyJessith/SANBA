@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculos">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/RelativeFRA">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LinearFRA">
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:hint="API Tabla"
+        android:id="@+id/APItabla"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        />
+
+    <EditText
+        android:id="@+id/APIobs"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="API Observado"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:hint="Barriles/grado API"
+        android:inputType="numberDecimal"
+        android:id="@+id/BblsCor"
+        android:maxLength="4"
+        />
+</LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/FRA"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/LinearFRA"
+        android:textStyle="bold"
+        android:hint="@string/resultado_correcion_por_techo"/>
+
+    <Button
+        android:id="@+id/button_calcular_techo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FRA"
+        android:text="@string/calcular_correci_n_por_techo" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativeCTSH"
+        android:layout_below="@+id/RelativeFRA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearCTSH">
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:hint="@string/temp_liq_f"
+                android:id="@+id/tempLiq"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                />
+
+            <EditText
+                android:id="@+id/tempAmb"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/temp_amb_f"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/TshRef"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/temp_ref_lam_f"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearresEncha"
+            android:layout_below="@+id/LinearCTSH">
+
+        <CheckBox android:id="@+id/enchaqueetado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/enchaquetado"
+            android:buttonTint="@color/colorPrimary"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/CTSH"
+            android:inputType="numberDecimal"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:hint="@string/resultado_ctsh"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_calcular_CTSH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LinearresEncha"
+            android:text="@string/calcular_ctsh" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativeVCF"
+        android:layout_below="@id/RelativeCTSH">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearVCF"
+            >
+
+
+            <EditText
+                android:id="@+id/APIstd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/ingrese_api_a_60_f"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/productoSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/VCF"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/LinearVCF"
+            android:hint="@string/resultado_vcf"/>
+
+        <Button
+            android:id="@+id/button_calcular_VCF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/VCF"
+            android:text="@string/calcular_vcf" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativeGOV"
+        android:layout_below="@id/RelativeVCF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearGOV"
+        >
+
+
+        <EditText
+            android:id="@+id/TOV"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/ingrese_tov_en_bbls"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/FW"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/ingrese_fw_en_bbls"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/GOV"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/LinearGOV"
+        android:hint="@string/resultado_gov"/>
+
+    <Button
+        android:id="@+id/button_calcular_GOV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GOV"
+        android:text="@string/calcular_gov" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativeGSV"
+        android:layout_below="@id/RelativeGOV">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/GSV"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:hint="Resultado GSV"/>
+
+        <Button
+            android:id="@+id/button_calcular_GSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/GSV"
+            android:text="@string/calcular_gsv" />
+    </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
+

@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!-- Update Tiempos-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titlulo_pickers"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.025" />
+        <RelativeLayout
+            android:id="@+id/Interno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="40dp"
+            android:outlineSpotShadowColor="@color/colorPrimary">
+
+            <EditText
+                android:id="@+id/nombreBuque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="Nombre del buque"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <EditText
+                android:id="@+id/nombreProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nombreBuque"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="Nombre del producto"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+
+            <EditText
+                android:id="@+id/TL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nombreProducto"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="TL"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <EditText
+                android:id="@+id/evento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TL"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="Evento"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <EditText
+                android:id="@+id/operacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/evento"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="Operacion"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+<!--Fecha-->
+            <LinearLayout
+                android:id="@+id/LinearFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/operacion">
+
+
+                <EditText
+                    android:id="@+id/et_mostrar_fecha_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="32dp"
+                    android:ems="10"
+                    android:hint="@string/formato_fecha"
+                    android:inputType="date"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <Button
+                    android:id="@+id/ib_obtener_fecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/fecha"
+                    app:layout_constraintHorizontal_bias="0.505"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_fecha_picker"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+<!--Hora-->
+            <LinearLayout
+                android:id="@+id/LinearHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/LinearFecha">
+
+                <EditText
+                    android:id="@+id/et_mostrar_hora_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="32dp"
+                    android:ems="10"
+                    android:hint="@string/formato_hora"
+                    android:inputType="time"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/et_mostrar_fecha_picker" />
+
+
+                <Button
+                    android:id="@+id/ib_obtener_hora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/hora"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_hora_picker"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/et_mostrar_fecha_picker"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LinearHora">
+
+
+            <Button
+                android:id="@+id/btnEnviar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/enviar_update" />
+
+            <Button
+                android:id="@+id/btnGuardarBuque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Guardar Buque" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+<!-- Desplazamiento-->
+        <TextView
+            android:id="@+id/textViewDesplazamiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desplazamiento"
+            android:layout_below="@+id/Interno"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.025" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Desplazamiento"
+            android:layout_below="@+id/textViewDesplazamiento"
+            android:outlineSpotShadowColor="@color/colorPrimary"
+            >
+<!--Fecha Desplazamiento-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearFechaDesplazamiento"
+                  >
+
+
+
+                <EditText
+                    android:id="@+id/et_mostrar_fecha_Desplazamiento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Fecha desplazamiento"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="32dp"
+                     />
+
+                <Button
+                    android:id="@+id/ib_obtener_fecha_Desplazamiento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fecha"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_fecha_Desplazamiento"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintHorizontal_bias="0.505"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewDesplazamiento"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+<!--Fecha Inicio Cargue-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearFechaInicioCargue"
+                android:layout_below="@+id/LinearFechaDesplazamiento">
+
+
+                <EditText
+                    android:id="@+id/et_mostrar_fecha_inicio_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Fecha inicio"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="32dp"
+                     />
+
+                <Button
+                    android:id="@+id/ib_obtener_fecha_incio_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fecha"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_fecha_inicio_cargue"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintHorizontal_bias="0.505"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toBottomOf="@+id/LinearFechaDesplazamiento"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+            <!--Hora Inicio Cargue-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearHoraInicioCargue"
+                android:layout_below="@id/LinearFechaInicioCargue">
+
+                <EditText
+                    android:id="@+id/et_mostrar_hora_inicio_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:hint="Hora Inicio"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent" />
+
+
+                <Button
+                    android:id="@+id/ib_obtener_hora_inicio_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hora"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toBottomOf="@+id/et_mostrar_fecha_inicio_cargue"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_hora_inicio_cargue"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearFechaPareCargue"
+                android:layout_below="@+id/LinearHoraInicioCargue">
+
+
+                <EditText
+                    android:id="@+id/et_mostrar_fecha_pare_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Fecha pare cargue"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="32dp"
+                     />
+
+                <Button
+                    android:id="@+id/ib_obtener_fecha_pare_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fecha"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_fecha_pare_cargue"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintHorizontal_bias="0.505"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toBottomOf="@+id/LinearFechaInicioCargue"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearHoraPareCargue"
+                android:layout_below="@id/LinearFechaPareCargue">
+
+                <EditText
+                    android:id="@+id/et_mostrar_hora_pare_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:hint="Hora de pare cargue"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent" />
+
+
+                <Button
+                    android:id="@+id/ib_obtener_hora_pare_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hora"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toBottomOf="@+id/et_mostrar_fecha_pare_cargue"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_hora_pare_cargue"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearFechaReanudaCargue"
+                android:layout_below="@+id/LinearHoraPareCargue">
+
+
+                <EditText
+                    android:id="@+id/et_mostrar_fecha_reanuda_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Fecha de reanudación cargue"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="32dp"
+                     />
+
+                <Button
+                    android:id="@+id/ib_obtener_fecha_reanuda_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fecha"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_fecha_reanuda_cargue"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintHorizontal_bias="0.505"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toBottomOf="@+id/LinearFechaPareCargue"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearHoraReanudaCargue"
+                android:layout_below="@id/LinearFechaReanudaCargue">
+
+                <EditText
+                    android:id="@+id/et_mostrar_hora_reanuda_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:hint="Hora de reanud. cargue"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent" />
+
+
+                <Button
+                    android:id="@+id/ib_obtener_hora_reanuda_cargue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hora"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toBottomOf="@+id/et_mostrar_fecha_reanuda_cargue"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintLeft_toRightOf="@+id/et_mostrar_hora_reanuda_cargue"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/cifraBuqueDesplazamiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Cifra buque desplazamiento"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="32dp"
+                android:layout_below="@id/LinearHoraReanudaCargue"
+                />
+
+            <EditText
+                android:id="@+id/cifraTierraDesplazamiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Cifra Tierra Desplazamiento"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/cifraBuqueDesplazamiento"
+                />
+
+
+
+            <TextView
+                android:id="@+id/diferenciaDesplazamiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Diferencia"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/cifraTierraDesplazamiento"
+                />
+
+            <EditText
+                android:id="@+id/OBQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="O.B.Q."
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/diferenciaDesplazamiento"
+                />
+
+            <EditText
+                android:id="@+id/VEF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="VEF"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/OBQ"
+                />
+
+            <EditText
+                android:id="@+id/rataEstimada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Rata estimada"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/VEF"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEnviarDesplazamiento"
+                android:layout_below="@+id/rataEstimada"
+                android:text="Enviar update desplazamiento"/>
+
+        </RelativeLayout>
+
+<!--Update Rata-->
+        <TextView
+        android:id="@+id/textViewRata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Rata"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        android:layout_below="@+id/Desplazamiento"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InternoRata"
+        android:layout_below="@+id/textViewRata"
+        android:outlineSpotShadowColor="@color/colorPrimary"
+        >
+
+        <!--Fecha-->
+        <LinearLayout
+            android:id="@+id/LinearFechaUpdateRata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <EditText
+                android:id="@+id/FechaUpdateRata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/formato_fecha"
+                android:inputType="date"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+
+            <Button
+                android:id="@+id/obtenerFechaUpdateRata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/fecha"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintLeft_toRightOf="@+id/FechaUpdateRata"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="parent"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+        <!--Hora-->
+        <LinearLayout
+            android:id="@+id/LinearHoraUpdateRata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LinearFechaUpdateRata">
+
+            <EditText
+                android:id="@+id/HoraUpdateRata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/formato_hora"
+                android:inputType="time"
+               />
+
+
+            <Button
+                android:id="@+id/obtenerHoraUpdateRata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/hora"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintLeft_toRightOf="@+id/HoraUpdateRata"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LinearFechaUpdateRata"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/cargado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Cargado a la hora"
+            android:layout_marginStart="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_below="@id/LinearHoraUpdateRata"
+            />
+
+        <EditText
+            android:id="@+id/rata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Rata"
+            android:layout_marginStart="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/cargado"
+            />
+
+        <EditText
+            android:id="@+id/porCargar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Por cargar"
+            android:layout_marginStart="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/rata"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearFecharRata"
+            android:layout_below="@+id/porCargar">
+
+
+            <EditText
+                android:id="@+id/et_mostrar_fecha_ETC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:hint="Fecha ETC"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="32dp"
+                />
+
+            <Button
+                android:id="@+id/obtener_fechaETC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/et_mostrar_fecha_ETC"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintHorizontal_bias="0.505"
+                android:layout_marginTop="32dp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearHoraRata"
+            android:layout_below="@id/LinearFecharRata">
+
+            <EditText
+                android:id="@+id/et_mostrar_hora_ETC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time"
+                android:hint="Hora ETC"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+
+            <Button
+                android:id="@+id/btnObtener_horaETC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hora"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/et_mostrar_fecha_picker"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintLeft_toRightOf="@+id/et_mostrar_hora_picker"
+                android:layout_marginStart="8dp"
+                app:layout_constraintHorizontal_bias="0.504"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEnviarRata"
+            android:layout_below="@+id/LinearHoraRata"
+            android:text="Enviar update Rata"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>

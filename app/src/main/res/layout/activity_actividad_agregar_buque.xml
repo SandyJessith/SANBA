@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ActividadEditarBuque">
+
+    <EditText
+        android:id="@+id/edit_text_nombreBuque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Buque"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operacion"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"/>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/operacion_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Prioridad: " />
+
+    <NumberPicker
+        android:id="@+id/number_picker_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+
+    <EditText
+        android:id="@+id/edit_text_nombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Producto"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_TL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TL"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_nominacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nominación en bbl"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cliente"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+
+
+
+
+</LinearLayout>

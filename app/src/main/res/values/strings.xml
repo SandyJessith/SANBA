@@ -1,0 +1,846 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SANBA</string>
+    <string name="titlulo_pickers">Updates tiempos</string>
+
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_hora">hh:mm</string>
+    <string name="buque_Cap17">
+          <p>\n  </p>
+        <P><b><i>Capitulo 17: Mediciones marinas\n </i></b></P>
+        <p>\n  </p>
+    <p>Provee guia para las mediciones y el reporte de petroleo crudo y sus productos.\n</p>
+        <p>\n  </p>
+
+        <p><i><b>Capitulo 17.1: Guía para inspecciones marinas \n</b></i></p>
+
+    </string>
+
+
+    <string name="buqueCap17_1_3">
+
+        <p><b>Capitulo 17.1.3: <i>Terminos y definiciones</i></b></p> \n
+
+
+    <p>\n  </p>
+        <i>3.1 <b>Gravedad API</b></i> \n
+
+        <p>La gravedad API es un termino que se utiliza en la industria petrolera para referirse a
+        la densidad del petroleo líquido. La relación entre la gravedad API y la densidad realativa
+        (gravedad específica) se define mediante la siguiente formula:</p> \n \n
+
+
+
+        Gravedad API @ 60 °F = [141.5/(Densidad reletiva 60°F/60 °F)] - 131.5 \n
+
+    <p>\n  </p>
+
+
+        <i>3.2 <b>Muestreador automatico</b></i>\n
+
+        <p>Es un dispsitivo utilizado para extraer una muestra representativa de un liquido fluyendo
+            a través de una tuberia. El muestreador automatico generalmente consiste en una sonda,
+            un extractor de muestra, un medidor de flujo, un controlador y un recibidor de muestra.</p>\n \n
+
+
+        <i>3.3 <b>Ballast</b></i> \n
+
+        <p>Es el agua que el buque toma cuando está parcial o totalmente vacío para modificar sus
+        condiciones de calado o trimado de acuerdo a sus necesidades o restricciones. </p>\n
+
+    <p>\n  </p>
+
+          <i>3.4 <b>Certificado de opción de cantidad de carga</b></i>\n
+
+        <p>Es un certificado firmado por los representantes de buque y tierra en el que se acuerda
+        la cantidad de producto que se pretende transferir, esta cantidad generalmente tiene una
+        toleracia. Todas las partes involucradas deben esta de acuerdo con la cantidad a ser transferida.</p>
+\n
+    <p>\n  </p>
+
+         <i>3.5 <b> Aferramiento (Clingage) </b></i>\n
+
+        <p>Es una pelicula liquida que se adhiere a las paredes internas de un recipiente despues de
+        haber sido vaciado.</p>\n
+
+    <p>\n  </p>
+
+          <i>3.6 <b> Lavado con crudo (Crude oil washing (COW)) </b></i>\n
+
+        <p>Ver lavado de tanques.</p>\n
+
+   <p>\n  </p>
+
+         <i>3.7 <b> Calado </b></i>\n
+
+        <p>La profundidad del buque debajo de la línea de agua, medida desde la superficie del agua
+        hasta la parte más baja de la quilla del buque.</p> \n
+
+    <p>\n  </p>
+
+        <i>3.8 <b> Agua libre </b></i>\n
+
+        <p>Volumen de agua presente en contenedor que no está en suspensión en el liquido (petroleo)
+        contenido</p> \n
+
+    <p>\n  </p>
+
+        <i>3.9 <b> Volumen grueso observado (GOV) </b></i> \n
+
+        <p>Volumen total de todo el petroleo liquido y SW, excluyendo el agua libre (FW), a la
+        temperatura y presión observada.</p> \n
+
+    <p>\n  </p>
+
+        <i>3.10 <b> Volumen grueso estandar (GSV) </b></i>\n
+
+        <p>Volumen total de todo el petroleo liquido y SW, excluyendo el agua libre (FW), corregido
+            por el factor de corrección de volumen apropiado (Ctl) para la temperatura observada y la
+            gravedad API, densidad relativa a una temperatura estandar, tal como 60°F o 15 °C. Si
+        aplica, corregir con el factor de correción por presión (Cpl) y factor del medidor.</p>
+\n
+    <p>\n  </p>
+
+        <i>3.11 <b> Peso grueso estandar (GSW) </b></i> \n
+
+        <p>Peso total de todo el petroleo liquido y SW (si tiene), excluyendo el agua libre (FW),
+            y es determinado aplicando el factor de conversión por peso apropiado al volumen grueso
+            estandar (GSV).</p>\n
+
+   <p>\n  </p>
+
+        <i>3.12 <b> Volumen indicado </b></i>\n
+
+        <p>El cambio en la lectura del medidor  que ocurre durante un recibo o entrega.</p>\n
+
+   <p>\n  </p>
+
+        <i>3.13 <b> Inertización </b></i>\n
+
+        <p>Procedimiento usado para reducir el contenido de oxigeno del espacio de cargue de una
+            embarcación, mediante la introducción de un gas inerte como nitrogeno, dioxido de carbono,
+            o una mezcla de gases de combustión procesados.</p> \n
+
+    <p>\n  </p>
+
+        <i>3.14 <b> Medición a fondo (innage) </b></i>\n
+
+        <p>Distancia medida desde la superficie del liquido hasta un plato de medición fijo o
+            el fondo del tanque.</p>\n
+
+    <p>\n  </p>
+
+        <i>3.15 <b> Carta de protesta o de discrepancia aparente (LOP) </b></i>\n
+
+        <p>Carta emitida por cualquier participante de una transferencia de custodia citando
+            cualquier condición en disputa.</p> \n
+
+    <p>\n  </p>
+
+        <i>3.16 <b> Verificación de llenado de linea </b></i> \n
+
+        <p>Verificación de la condición de llenado de la linea de transferencia de producto entre
+            tierra y buque antes y/o despues de la transferencia de custodia.</p> \n
+
+    <p>\n  </p>
+
+        <i>3.17 <b>Escora (List) </b></i> \n
+
+        <p>Inclinación de una embarcación, expresada en grados babor o estribor de su vertical.</p>
+\n
+<p>\n  </p>
+
+        <i>3.18 <b>Corrección por escora (List correction) </b></i> \n
+
+        <p>Corrección aplicada a una medida observada o volumen observado cuando una embarcación está
+            escorada, siempre que el liquido esté en contacto con todos los mamparos en el tanque.
+            La correción por escora se debe hacer con referencia a las tablas de correción por escora
+            de la embarcación para cada tanque o por calculos matematicos.</p> \n
+
+   <p>\n  </p>
+
+        <i>3.19 <b>Cargue encima (Load on top (LOT)) </b></i>\n
+
+        <p>Se define de dos formas, practica y procedimiento. </p>\n \n
+
+        <p><i>Practica: </i> </p>\n
+
+        <p> Es el acto de mezclar la cantidad abordo (OBQ) con el producto a ser cargado</p>
+\n \n
+        <p><i>Procedimiento:</i> </p> \n
+
+        <p>Es el proceso de colectar y dejar asentar agua y mezclas aceitosas resultantes del lastre
+        y de las operaciones de limieza de tanques (Usualmente en un tanque o varios tanques de slop),
+        y subsequentemente cargando encima de los slops y bombeando la mezcla a tierra en el puerto
+        de descarga.</p> \n
+
+   <p>\n  </p>
+
+        <i>3.20  <b>Volumen estandar neto (NSV) </b></i> \n
+
+        <p>Volumen total del petroleo liquido, excluyendo SW y agua libre,corregido por el factor de
+            corrección de volumen apropiado (Ctl) para la temperatura observada y la gravedad API,
+            densidad relativa a una temperatura estandar, tal como 60°F o 15 °C. Si aplica, corregir
+            con el factor de correción por presión (Cpl) y factor del medidor. .</p> \n
+
+   <p>\n  </p>
+
+        <i>3.21 <b>Peso estandar neto (NSW) </b></i> \n
+
+        <p>Peso total del petroleo liquido, excluyendo SW y agua libre,y es determinado deduciendo
+            el peso de SW del peso estandar grueso (GSW).</p> \n
+
+    <p>\n  </p>
+
+        <i>3.22 <b>Altura de referencia observada </b></i> \n
+
+        <p>Distancia real medida desde el plato de medición o fondo del tanque hasta un punto de
+            referencia establecido.</p> \n
+
+  <p>\n  </p>
+
+        <i>3.23 <b>Cantidad abordo (OBQ) </b></i> \n
+
+        <p>Material presente abordo de los tanques de cargue de una embarcación, espacios vacios
+            y lineas antes de que la embarcación sea cargada. El OBQ podría incluir cualquier combinación
+        de agua, aceite, slops, residuos aceitosos, emulsiones de agua y aceite, y sedimentos.</p>
+\n
+
+<p>\n  </p>
+
+        <i>3.24 <b>Altura de referencia </b></i> \n
+
+        <p>Distancia desde el plato de medición o el fondo del tanque hasta una marca o punto de
+            referencia establecido.</p> \n \n
+
+
+
+
+        <i>3.25 <b>Punto de referencia </b></i> \n
+
+        <p>Punto desde el cual es determinada la altura de referencia y desde el cual son tomadas las
+            mediciones a vacio y fondo.</p> \n \n
+
+
+        <i>3.26 <b>Remanente abordo </b></i> \n
+
+        <p>Material remanente a bordo de los tanques de cargue de una embarcación, espacios vacios
+            y lineas despues de que la embarcación es descargada. El OBQ podría incluir cualquier combinación
+            de agua, aceite, slops, residuos aceitosos, emulsiones de agua y aceite, y sedimentos.</p>
+\n \n
+
+        <i>3.27 <b>Agua y sedimentos (SW) </b></i> \n
+
+        <p>Material solido no hidrocarburo y agua en suspensión en petroleo liquido. el S&amp;W es medido
+        por las tecnicas descritas en API MPMS Ch. 10.1, Ch. 10.2, Ch. 10.3, Ch. 10.4, Ch. 10.5,
+            Ch. 10.6, Ch. 10.7, Ch. 10.8, and Ch. 10.9.</p> \n \n
+
+
+        <i>3.28 <b>Slops </b></i> \n
+
+        <p>Aceite, aceite/agua/sedimento, y emulsiones contenidas en los tanques de slops o tanques
+            designados para cargue. La mezcla usualmente resulta del escurrimiento (stripping) de los
+            tanques, lavado de tanques, o separación de fases de aguas sucias de lastre.</p> \n \n
+
+
+        <i>3.29 <b>Medida de pare </b></i> \n
+
+        <p>Determinación previa a la transferencia de un volumen especifico de cargue representado
+            por un nivel especifico del tanque, el cual, cuando se alcanza resulta en la finalización
+            de la transferencia. Esta determinación puede ser realizada ya sea por el personal de tierra
+            o la embarcación.</p> \n \n
+
+
+        <i>3.30 <b>Lavado de tanques </b></i> \n
+
+        <p>Se divide en los siguientes tipos de actividades: .</p> \n \n
+
+        <p>A) EL lavado con agua involucra el uso de vapor de agua a alta presión para desalojar los
+            residuos liquidos aferrados y el sedimento de los mamparos, fondo y las extructuras internas
+            de los tanques de las embarcaciones.</p>\n \n
+        <p>B) EL lavado con crudo (COW) involucra el uso de vapor del cargamento de crudo a alta
+            presión para desalojar los residuos liquidos aferrados y el sedimento de los mamparos,
+            fondo y las extructuras internas de los tanques de las embarcaciones durante la operación
+            de descarga.</p>\n \n
+        <p>C) Otros tipos de lavados de tanques  involucran el uso de vapor de varios agentes a alta
+            presión para desalojar los residuos liquidos aferrados y el sedimento de los mamparos,
+            fondo y las extructuras internas de los tanques de las embarcaciones.</p> \n \n
+
+
+        <i>3.31 <b>Volumen total calculado (TCV) </b></i>\n
+
+        <p>Volumen total de todo el petroleo liquido y SW, excluyendo el agua libre (FW), corregido
+            por el factor de corrección de volumen apropiado (Ctl) para la temperatura observada y la
+            gravedad API, densidad relativa a una temperatura estandar, tal como 60°F o 15 °C. Si
+            aplica, corregir con el factor de correción por presión (Cpl) y factor del medidor y toda
+            el agua libre medida a la temperatura y presión observada (GSV + FW).</p> \n \n
+
+
+        <i>3.32 <b>Volumen total observado (TOV) </b></i> \n
+
+        <p>Volumen total medido de todo el petroleo liquido, SW y FW a la termperatura y presión
+        observada.</p> \n \n
+
+
+        <i>3.33 <b>Trimado </b></i> \n
+
+        <p>Condición de una embarcación con referencia a su posición logitudinal en el agua.Es la
+            diferencia entre el calado de proa y popa y se expresa "por proa" y "por popa".</p> \n \n
+
+
+        <i>3.34 <b>Corrección por trim </b></i> \n
+
+        <p>Correcoión aplicada a la medida o volumen observado cuando la embarcación no está en posición
+            de trimado 0 (cero, siempre y cuado el liquido esté en contacto con todos los mamparos en
+            el tanque. Las correciones por trim se pueden hacer utilizando las tablas de cada tanque
+            o por calculos matematicos.</p>\n \n
+
+
+        <i>3.35 <b>Medida a vacio (Ullage o outage) </b></i> \n
+
+        <p>Distancia medida desde la superficie del liquido hasta un punto de referencia.</p> \n \n
+
+
+        <i>3.36 <b>Factor de experiencia de la embarcación (VEF) </b></i> \n
+
+        <p>Copilación del historial de las medidas del volumen total calculado(TCV) de la embarcación,
+            ajustados por el OBQ o ROB, comparado con las medidas TCV de tierra.</p>\n \n
+
+        <i>3.37 <b>Prueba de lavado de paredes </b></i> \n
+
+        <p>Procedimiento utilizado para lavar ciertas áreas seleccionadas, tales como los mamparos
+            interiores, fondos de los tanques y sumideros de drenaje de los tanques de carga, con un
+            medio adecuado y el análisis del líquido de lavado para detectar la presencia de
+            materiales que puedan contaminar la cargaque será embarcada. (Véase API MPMS, Cap, 17.8).
+        </p>\n \n
+
+        <i>3.38 <b>Medición del corte de agua</b></i> \n
+
+        <p>Procedimiento de localización de la interfase agua-aceite con el propósito de determinar
+            el volumen de agua libre en un tanque en tierra o en un compartimiento del buque. También
+            se utiliza para hacer referencia a la línea de demarcación de la interfase de aceite/agua.
+        </p>\n \n
+
+        <i>3.39 <b>Formula de cuña</b></i> \n
+
+        <p>Recurso matemático utilizado para aproximar pequeñas cantidades de carga líquida y sólida
+            y agua libre a bordo, antes de cargar y después de descargar, basándose en las dimensiones
+            del compartimiento de carga y el asiento del buque. La fórmula de cuña se utilizará sólo
+            cuando el líquido no toque todos los mamparos del tanque del buque.
+        </p>\n \n
+
+         <i>3.40 <b>Tabla de cuña</b></i> \n
+
+        <p>Tabla precalculada del buque, que se basa en la fórmula de cuña y es muy parecida a las
+            tablas de sondeo/aforo de buques comúnmente usadas. Sin embargo, dichas tablas sólo sirven
+            para pequeñas cantidades (cantidades a bordo, remanente a bordo) cuando la carga o el
+            agua libre no toca todos los mamparos del tanque del buque.
+        </p>\n \n
+
+        <i>3.40 <b>Prueba de paño</b></i> \n
+
+        <p>Procedimiento que consiste en frotar con paños blancos absorbentes áreas interiores y
+            serpentines de vapor de los tanques del buque, escogidos al azar. Este procedimiento se
+            utiliza para probar el revestimiento del tanque por posible contaminación de color.
+        </p>\n \n
+
+    </string>
+
+    <string name="advertencia">SANBA está dedicada a dar información netamente operativa y no
+    pretende de ninguna manera reemplazar la norma ASTM o API, para información no encontrada aquí o
+    detalles más espcificos en algún tema, favor dirigirse al respectivo capitulo de la norma</string>
+
+    <string name="buqueCap17_1_5">
+
+    <p><b>Capitulo 17.1.5: <i>Información general</i></b></p> \n\n
+
+
+    <p>La medición puede realizarse manualmente o por sistemas automáticos, conforme a procedimientos
+apropiados para el tipo de buque, carga y lugar. (Véase API MPMS, Cap. 3 y API MPMS 17.2)\n\n
+
+Todas las partes responsables deberían estar informadas en el caso que alguno de los equipos de
+medición, tanques o medidores tenga alguna desviación conocida. La documentación de estas
+desviaciones debería estar disponible a todas las partes responsables para su revisión y debe ser usada
+en la preparación de la conciliación de volúmenes. Las posibilidades de desviaciones conocidas incluyen
+–pero no están limitadas a– agua, nieve, hielo o escombros sobre los tanques de techo flotante. \n\n
+
+Los procedimientos descritos en esta publicación deberán ser ejecutados por personal debidamente
+entrenado. Si por alguna razón (por problemas como restricciones de seguridad, ambientales o físicas;
+limitaciones gubernamentales; conflictos con acuerdos contractuales o cualquier otro) no se pudieran
+realizar los procedimientos, el reporte de inspección debería incluir una explicación detallada y completa
+de la situación. El personal de medición es responsable de asegurar el uso del equipo apropiado de
+seguridad, medición y muestreo.\n\n
+
+El capitán del buque y/o el representante designado, el personal de supervisión en tierra y el personal de
+medición que realice la inspección deberían estar familiarizados con el alcance de los procedimientos de
+inspección de carga y conocer los procedimientos de seguridad propios del producto que se transfiere.\n\n
+
+Si durante las operaciones de transferencia de carga debe efectuarse simultáneamente la toma o
+descarga de lastre, registrar este hecho y las razones del mismo en el reporte de inspección y comentar
+el grado de segregación mantenido durante la operación. \n \n
+
+Se requiere de un estricto control de calidad durante las operaciones de carga, transporte y descarga de
+productos de petróleo y químicos. Los buques designados para el transporte de estos productos
+deberían cumplir con los criterios de compatibilidad. También deberían ser inspeccionados por limpieza
+antes de la carga para evitar la contaminación del embarque (Véase el API MPMS, Cap. 17.8). Si existe
+alguna pregunta referente a compatibilidad o contaminación, todas las partes interesadas deberían ser
+notificadas y se deberían resolver las dudas antes del inicio de la carga.</p> \n \n
+
+</string>
+
+    <string name="buqueCap17_1_6">
+
+    <p><b>Capitulo 17.1.6: <i>Resumen estándar</i></b></p> \n\n
+
+        <p><b>6.1 General</b></p>\n
+
+        <p>El capitulo 17.1 es un resumen del capitulo 17. Esta sección presenta una breve descripición
+        de cada una de las secciones del capitulo 17.</p>\n\n
+
+        <p><b>6.2 Capitulo 17.2 - <i>Medida de carga abordo de buquetanques</i></b></p>\n
+
+        <p>Provee guía y procedimiento para medir, muestrar y calcular la cantidad y calidad de una
+            embarcación de manera exacta. Se dicuten los metodos de medición manuales y automaticos.
+        La medición de cargas presurizadas y refrigeradas no son discutidas.</p>\n\n
+
+         <p><b>6.3 Capitulo 17.3 - <i>Guia para la identificación de fuentes de agua libre asociadas
+         con movimientos de cargas petroleras en el ambito marino </i></b></p>\n
+
+        <p>Provee guia para la identificación de las fuentes de agua libre asociadas movimientos de
+            cargas petroleras en el ambito marino. Muestreo basico, pruebas en campo, porcedimientos
+        analiticos y otros ejemplos son discutidos. Este procedimiento debería ser considerado cuando
+        se detecta agua libre o se sospecha de su precencia en movimientos de cargas petroleras en el
+            ambito marino</p>\n\n
+
+        <p><b>6.4 Capitulo 17.4 - <i>Metodos para la cuantificación de pequeños volumenes en embarcaciones
+        marinas (OBQ/ROB)</i></b></p>\n
+
+        <p>Proporciona pautas y procedimientos para permitir la medición de pequeñas cantidades de
+            carga en embarcaciones marinas, lo que puede requerir tablas especiales de strapping,
+            ubicaciones de medición y ajustes. Se incluyen ejemplos de información y cálculo. </p>\n\n
+
+        <p><b>6.5 Capitulo 17.5/EI HM 64 - <i>Pautas para el análisis de carga y la reconciliación
+            de las cantidades de carga</i></b></p>\n
+
+        <p>Proporciona pautas y procedimientos para la conciliación de las cantidades de carga
+            marítima a lo largo de un viaje. El estándar contiene un ejemplo de Informe de análisis
+            de viaje (VAR), que ayuda a identificar la fuente de las diferencias de cantidad
+            (ganancias / pérdidas). </p>\n\n
+
+        <p><b>6.6 Capitulo 17.6 - <i>Pautas para determinar el llenado de las tuberías entre
+            embarcaciones y tanques de tierra</i></b></p>\n
+
+        <p>Proporciona pautas y procedimientos para determinar la condición de llenado de los sistemas
+            de tuberías utilizados para la transferencia de líquido antes y después de que este
+            se cargue o descargue de los buques marinos. </p>\n\n
+
+        <p><b>6.7 Capitulo 17.7 - <i>Prácticas recomendadas para desarrollar factores de control de
+            barcazas (relación de volumen)</i></b></p>\n
+
+        <p>Proporciona pautas y procedimientos para calcular un factor de control para las barcazas
+             cuando no hay un VEF confiable disponible. El factor de control de barcazas permite
+            comparaciones de volumen de barcazas a tierra solo para barcazas. Todos los demás
+            recipientes deben usar el método VEF que se encuentra en el Capítulo 17.9 de API MPMS. </p>
+        \n\n
+
+         <p><b>6.8 Capitulo 17.8 - <i>Pautas para la inspección previa a la carga de tanques de carga
+             de embarcaciones marinas</i></b></p>\n
+
+        <p>Proporciona pautas y procedimientos para determinar que los tanques de carga y equipos
+            de transferencia estén adecuadamente limpios. Se describen las responsabilidades del
+            buque y de tierra. </p>\n\n
+
+         <p><b>6.9 Capitulo 17.9 - <i>Factor de experiencia de embarcaciones (VEF)</i></b></p>\n
+
+        <p>Proporciona pautas y procedimientos para calcular un VEF, orientación para la recopilación
+            de datos e instrucciones para cálculos de VEF más complejos. El estándar contiene un
+            ejemplo de cálculo VEF. </p>\n\n
+
+        <p><b>6.10 Capitulo 17.10.1/ISO 10976 - <i>Medición de cargas a bordo de transportistas de
+            gas marino, Parte 1 - Gas natural licuado</i></b></p>\n
+
+        <p>Proporciona pautas y procedimientos al personal de los buques y tierra para determinar
+            las cantidades de cargas de gas natural licuado a bordo de los transportadores de gas
+            marino. Incluye métodos recomendados para medir, muestrear, documentar e informar
+            cantidades a bordo de estos buques. </p>\n\n
+
+         <p><b>6.11 Capitulo 17.10.1/EI HM 55 - <i>Medición de cargas refrigeradas y / o presurizadas
+             a bordo de transportadores de gas marino, Parte 2 - Gases licuados de petróleo y
+             químicos</i></b></p>\n
+
+        <p> Proporciona pautas y procedimientos al personal de los buques y tierra para determinar
+            las cantidades de cargas de petróleo licuado y gas químico a bordo de transportadores de
+            gas refrigerado y presurizado. Incluye métodos recomendados para medir, muestrear,
+            documentar e informar cantidades a bordo de estos buques.</p>\n\n
+
+        <p><b>6.12 Capitulo 17.11/EI HM 52 - <i>Medición y muestreo de cargas a bordo de buques
+            tanque utilizando equipos cerrados y restringidos</i></b></p>\n
+
+        <p> Proporciona precauciones de seguridad, equipos, pautas, procedimientos y limitaciones
+            de los equipos de medición y muestreo cerrados y restringidos.</p>\n\n
+
+        <p><b>6.13 Capitulo 17.12/EI HM 51 - <i>Procedimiento para la inspección de carga química
+            líquida a granel por inspectores de carga</i></b></p>\n
+
+        <p> Proporciona pautas y procedimientos de seguridad, carga y descarga marina para la
+            transferencia de productos químicos líquidos a granel. Las pautas y procedimientos
+            relacionados con el mantenimiento de la calidad química se describen específicamente.</p>
+        \n\n
+</string>
+
+    <string name="buqueCap17_1_7">
+        <p><b>7. Resumen de la operación</b></p>\n\n
+
+        <p><b>7.1 General</b></p>\n\n
+
+        <P>Antes de que comiencen las operaciones, se deben realizar una o más reuniones entre los
+            inspectores de carga, los representantes de los buques y el personal de operaciones en
+            tierra que participan en la operación de transferencia de carga. En estas reuniones, se
+            identifican personas operativas clave, se definen las responsabilidades, se identifican
+            los riesgos de seguridad, se organizan los procedimientos de comunicación y todos los
+            interesados ​​revisan los procedimientos y planes de transferencia para garantizar una
+            comprensión completa de todas las actividades.</P>\n\n
+
+         <p><b>7.2 Reunión clave</b></p>\n\n
+
+        <P>Los siguientes puntos deben discutirse en la reunión clave.\n\n
+  <b>Puerto de cargue:</b>
+            — Se informará a todas las partes sobre los procedimientos de seguridad locales, los
+            procedimientos de seguridad de los buques, los EPP requeridos, y peligros asociados con
+            la carga.\n\n
+
+            — Todas las partes deben acordar la cantidad y las especificaciones de calidad de la
+            carga (consulte certificado de opciones de cantidad, Anexo A).\n\n
+
+
+            —Se debe llegar a un acuerdo sobre si el personal de tierra o del barco terminará la
+            carga.\n\n
+
+            - Si corresponde, el representante del barco debe confirmar la capacidad del barco
+            para calentar la carga según las instrucciones.\n\n
+
+            - Consulte con el representante del barco para obtener informes de cualquier evento
+            inusual que pueda haber ocurrido durante el paso por el mar o en el puerto anterior y
+            que pueda requerir una vigilancia especial durante la carga.\n\n
+
+            - Consulte con el personal de tierra para acordar los procedimientos para manejar
+            cualquier condición especial que exista en tierra que pueda afectar negativamente
+            la actividad de carga o las mediciones.\n\n
+
+            - Se debe llegar a un acuerdo sobre el método que se utilizará para determinar la
+            plenitud de línea y la tolerancia acordada (ver API MPMS Ch. 17.6).\n\n
+
+            - Determine qué tanques se cargarán, la capacidad de los tanques, el estado de las
+            líneas, la naturaleza de las últimas tres cargas del buque y el método de limpieza de
+            los tanques de carga (ver API MPMS Ch. 17.8).\n\n
+
+            - Si se requieren muestras de "primer pie", se debe tomar una decisión sobre los tanques
+            que se utilizarán para dichas muestras y la cantidad de carga que se cargará para el
+            muestreo.\n\n
+
+            - Emitir LOP a cualquier parte que no cumpla con los procedimientos recomendados.Se debe
+            utilizar la Lista de verificación de inspección (ver Anexo A) o un documento similar.
+            En embarcaciones multigrado, puede ser necesario cargar los tanques de la embarcación en
+            un cierto orden para evitar la contaminación y cumplir con los requisitos operativos de
+            la embarcación. Esto debe discutirse y el orden por grado y / o producto debe acordarse
+            antes de que comiencen las operaciones de carga.\n\n
+
+            <b>Precaución: la contaminación del producto puede dar lugar a una condición insegura
+                para el terminal y / o la embarcación.</b>\n\n
+
+            Si se mezcla a bordo del recipiente, es fundamental que todos los volúmenes cargados
+            sean consistentes con la mezcla manual proporcional antes de la carga. Si el material
+            contenido en las lineas de tierra se va a cargar como parte de la mezcla, se debe tomar
+            y analizar una muestra de línea.\n\n
+
+            Para ayudar a mezclar, el componente más pesado puede cargarse primero, seguido de los
+            componentes más ligeros. El volumen puede medirse después de cargar cada componente. El
+            contenido de las lineas de tierra, la carga anterior del barco y cualquier OBQ deben
+            tenerse en cuenta para su efecto en la operación de mezcla. Las mezclas pueden requerir
+            un ajuste para mantener las especificaciones de mezcla mutuamente acordadas.\n\n
+
+            NOTA Debido a la mezcla incompleta, las limitaciones de muestreo y otras restricciones
+            operativas, las muestras de los tanques de la embarcación pueden no ser representativas
+            de las mezclas manuales proporcionales analizadas en el puerto de carga.\n\n
+
+            <b>Puerto de descarga</b>\n\n
+
+
+            - Se informará a todas las partes acerca de los procedimientos locales de seguridad,
+            los procedimientos de seguridad de los buques, los EPP requeridos y los riesgos asociados
+            con la carga.\n\n
+
+            - Todas las partes deben acordar la cantidad y las especificaciones de calidad de la
+            carga.\n\n
+
+            - Se debe llegar a un acuerdo sobre si el personal de tierra o del barco terminará la
+            descarga.\n\n
+
+            - Si corresponde, el representante del barco debe confirmar la capacidad del barco para
+            calentar la carga según las instrucciones.\n\n
+
+            - Consulte con el representante de la embarcación para obtener informes de cualquier
+            evento inusual que pueda haber ocurrido durante el paso por el mar o en el puerto
+            anterior y que pueda requerir una vigilancia especial durante la descarga.\n\n
+
+            - Consulte con el personal de tierra para asegurarse de que no existan condiciones
+            especiales en la costa que puedan afectar negativamente la actividad de descarga o las
+            mediciones.\n\n
+
+            - Se debe llegar a un acuerdo sobre el método que se utilizará para determinar el llenado
+            de línea y la tolerancia acordada, si corresponde (ver API MPMS Ch. 17.6).\n\n
+
+            - Determine qué tanques de tierra recibirán carga, la capacidad de los tanques de tierra
+            y la condición de las líneas de tierra.\n\n
+
+            - Emitir LOP a cualquier parte que no cumpla con los procedimientos recomendados.\n\n
+
+            Se debe utilizar la Lista de verificación de inspección (ver Anexo A) o un documento
+            similar.\n\n
+        </P>
+    </string>
+
+    <string name="buqueCap17_1_8">
+        <p><b>8. Comunicación y operación Buque/Tierra</b>\n\n
+
+            Se debe organizar un medio confiable de comunicación entre tierra y buques.
+            El personal de la embarcación, tierra o medición que observe un evento durante cualquier
+            etapa de la transferencia que pueda afectar eventos posteriores debe notificarlo de
+            inmediato a todo el personal clave para que se puedan tomar medidas oportunas. Registre
+            estos eventos en el informe de inspección.\n\n
+
+            Cuando se transfiera más de un producto y / o grado de producto, se mantendrá una estrecha
+            comunicación entre el personal en tierra y en el barco para evitar la contaminación y el
+            material fuera de especificación. Esto es de especial importancia cuando se cambia de un
+            producto y / o grado a otro.\n\n
+
+            Si ocurre algún evento que pueda afectar los procedimientos posteriores en cualquier etapa
+            de la operación de transferencia de carga, todo el personal clave involucrado debe ser
+            notificado de inmediato para que se puedan tomar las medidas oportunas necesarias.
+            Cualquier acción o negativa a actuar que no esté de acuerdo con los procedimientos API o
+            acuerdos contractuales previos específicos se informará a las partes interesadas y puede
+            documentarse mediante la emisión de una LOP.\n\n
+
+        </p>
+
+    </string>
+
+    <string name="buqueCap17_1_9">
+        <p><b>9 Inspección y muestreo de embarcaciones</b>\n\n
+
+            <b>9.1 Inspección de buque</b>\n\n
+
+            <b>9.1.1 Calado, trimado y escora</b>\n\n
+
+            Registre el calado, trimado y escora tanto en babor como en estribor. Verifique visualmente
+            el calado de la embarcación cuando sea posible. Cuando las embarcaciones no tienen tablas
+            de corrección por trimado o escora, consulte API MPMS Ch. 12.1.1. La condición preferida
+            de la embarcación es estar en quilla totalmente horizontal (Even Keel) (es decir, con
+            trimado y escora cero), lo que elimina la necesidad de aplicar cualquier corrección de
+            trimado o escota a las lecturas de las medidas.\n\n
+
+            <b>9.1.2 Medidas del buque</b>\n\n
+
+            Tome las mediciones, cortes de agua y temperaturas en todos los compartimentos de carga
+            en el punto de referencia indicado en las tablas de capacidad de la embarcación. Las tablas
+            de capacidad de los buques deben estar certificadas por el constructor naval, la sociedad
+            de clasificación, la compañía de inspección independiente u otro tercero competente
+            aprobado para la precisión del uso a bordo del buque particular para el que se emiten.
+            El informe debe indicar si las mediciones fueron manuales o automáticas, si los tanques
+            del buque se inertizaron durante la medición y si se utilizó equipo manual (abierto)
+            o cerrado / restringido (ver API MPMS 17.11).\n\n
+
+            Inspeccione la presencia de carga en espacios de carga no designados, tanques de lastre,
+            cofres y espacios vacíos. Si se encuentra carga, mídala de la misma manera que el petróleo
+            en los compartimentos de carga (consulte API MPMS Ch. 17.2) y notifique a todas las
+            partes interesadas. \n\n
+
+            Las alturas de observadas deben registrarse y compararse con las alturas de referencia.
+            Investigue y reporte cualquier discrepancia. La ubicación del punto de referencia de
+            medición debe anotarse en el informe de inspección.\n\n
+
+            Las mediciones de las embarcaciones tomadas a través de tuberías verticales no ranuradas
+            son inexactas y no se utilizarán para fines de transferencia de custodia. Se pueden
+            necesitar mediciones adicionales desde otros lugares cuando existe esta condición.
+            Tenga en cuenta en el informe la existencia de esta condición y notifique a todas las
+            partes interesadas.\n\n
+
+            En el caso de materiales pesados viscosos, el aire y / o los gases inertes pueden quedar
+            atrapados en el producto. Se debe permitir un tiempo de asentamiento apropiado, si es
+            posible.\n\n
+
+            En operaciones que involucran aligeramiento (lightering), ambas embarcaciones deben
+            medirse antes y después del aligeramiento.\n\n
+
+            Las mediciones de la embarcación no deben tomarse durante las operaciones de toma de
+            combustible.\n\n
+
+            <b>9.1.3 Carga encima</b>\n\n
+
+            Si se sigue un procedimiento de carga encima (Load on top), se debe completar un registro
+            de monitoreo de carga encima (ver Anexo A).\n\n
+
+            <b>9.1.4 Lineas y tanques de la embarcación</b>\n\n
+
+            Todos los tanques de los buques, incluidos los de carga, lastre y cofres, deben
+            inspeccionarse antes y después de la operación de transferencia de carga.\n\n
+
+            Antes de medir OBQ / ROB, se debe determinar la condición de las líneas de la embarcación.
+            El inspector puede solicitar que se vacíen las líneas de la embarcación y se abran las
+            válvulas. Se debe tener precaución en cargas multigrado para evitar mezclar el contenido
+            de la línea de diferentes productos. Mida la cantidad de carga o agua de lastre drenada
+            en el tanque y muestree, si es posible. Registre la capacidad de las líneas que fueron
+            drenadas. Reporte la transferencia de cualquier remanente de la sala de máquinas u otro
+            líquido en los tanques de carga o de decantación (Slops).\n\n
+
+            Si la carga anterior presenta un problema de seguridad o contaminación, todas las líneas
+            y bombas deben limpiarse a fondo y drenarse. Observe en el informe de inspección cómo se
+            realizó la limpieza y el drenaje.\n\n
+
+            Cuando se inspecciona la aceptabilidad del tanque antes de la carga, la inspección del
+            tanque debe realizarse de acuerdo con API MPMS Ch. 17.8.\n\n
+
+           <b>9.1.5 Medición de carga abordo (O.B.Q.)</b>\n\n
+
+           Obtenga y registre alturas de referencia de las tablas de calibración antes de tomar las
+           medicones de apertura y cortes de agua. Registre las alturas de referencia observadas;
+            investigar e informar cualquier discrepancia entre las alturas de referencia oficial y
+            las alturas de referencia observadas. Determine la cantidad y la naturaleza de cualquier
+            material a bordo (OBQ) antes de la carga, incluida toda la carga en tránsito y el material
+            en espacios de carga no designados (consulte API MPMS Cap. 17.4). Describa e informe el
+            OBQ y el FW (consulte 9.2.6 para tanques de decantación).\n\n
+
+            <b>9.1.6 Medición de remanentes abordo (R.O.B.)</b>\n\n
+
+          Después de la descarga, verifique el estado de las líneas de carga; Si las líneas de carga
+          no se drenan, la cantidad de carga en las líneas debe contabilizarse como ROB. Determine la
+          cantidad y la naturaleza de cualquier material ROB. Incluya carga en tránsito que no se
+          descargó y material en espacios de carga no designados (consulte API MPMS Cap. 17.4 y
+          Cap. 17.11). Describa el material que se encuentra en el fondo de los tanques como material
+          líquido, material no líquido o FW. Si la inspección, la medición y el muestreo del fondo
+          revelan que cualquier carga permanece a bordo, las partes interesadas deben determinar si
+          se deben realizar más intentos para bombear las cantidades restantes a tierra. Si esto no
+          se hace, informe los motivos. Se debe emitir una LOP si corresponde.\n\n
+
+             <b>9.1.7 Calculos de volumenes de ROB/OBQ</b>\n\n
+
+          El informe OBQ / ROB se debe completar antes de cargar o después de descargar. Determine
+            el OBQ / ROB como se especifica en API MPMS Ch. 17.4 Midiendo el OBQ / ROB en varios
+            puntos en el compartimento de una embarcación, es muy útil para establecer si el material
+            se distribuye o no uniformemente en el fondo del tanque. Cuando se encuentran disponibles
+            múltiples puntos de medición en un compartimento, se deben tomar y registrar indicadore
+            s manuales de cada punto de medición.\n\n
+
+            a) Para material líquido y agua, use correcciones de calado y escora si el líquido está
+            en contacto con todos los mamparos en el compartimento y la embarcación no está en una
+            quilla totalmente horizontal (Even Keel). Use una fórmula de cuña si el líquido no toca
+            todos los mamparos de los compartimientos del recipiente.\n\n
+
+            b) Para material no líquido, se recomienda la medición multipunto para determinar si
+            existe una condición de cuña. Si el material medido no es una cuña, se debe usar el
+            promedio de las lecturas múltiples para la determinación del volumen. Sin embargo, si
+            solo hay un punto de medición disponible, se supondrá que el material se distribuye
+            uniformemente sobre el fondo del tanque.\n\n
+
+            Para obtener información adicional, consulte API MPMS Ch. 17.4\n\n
+
+            NOTA <i>Todos los compartimentos en los que no se va a cargar encima que vienen cargados
+            del puerto de carga, deben medirse para determinar si algún volumen ha cambiado. Estas
+            mediciones deben informarse y no deben incluirse en la determinación de ROB. Si hay un
+            cambio en estos volúmenes, determine la razón y, si es necesario, notifique a todas las
+                partes interesadas de inmediato. </i>\n\n
+
+            <b>9.1.8 Toma de temperaturas de pequeños volumenes (ROB/OBQ)</b>\n\n
+
+          Las temperaturas se obtendrán, registrarán y utilizarán para la corrección del volumen de
+            carga siempre que la profundidad del material y la naturaleza del material lo permitan.
+            Si no se puede medir la temperatura, el volumen bruto observado (GOV) se informará como
+            GSV. \n\n
+
+            Las mediciones de temperatura se obtendrán de acuerdo con API MPMS Ch. 7, cap. 17.2, cap.
+            17.11, y el cap. 17.12.\n\n
+
+            <b>9.1.9 Muestreo de pequeños volumenes (ROB/OBQ)</b>\n\n
+
+          Cuando se puede acceder al OBQ / ROB, se deben obtener muestras de todos los compartimentos
+            que contengan volumen de líquido. También se debe intentar muestrear volúmenes no líquidos.
+            Las muestras tomadas deben estar en cantidad suficiente para permitir cualquier análisis
+            requerido. Las muestras se tomarán de acuerdo con API MPMS Ch. 8.1, cap. 8.2, cap. 8.3,
+            y el cap. 8.4.\n\n
+
+            <b>9.1.10 Medición de agua libre</b>\n\n
+
+          Mida el FW durante el transcurso de la medición de cada compartimento. Registre el tipo /
+            marca de pasta (s) de búsqueda de agua o dispositivo utilizado para determinar la interfaz
+            aceite / agua. Registre la interfaz y cualquier emulsión de aceite que se detecte. Se
+            tomarán muestras de FW cuando sea posible (ver API MPMS Ch. 3.1A y 17.3).\n\n
+
+            Es posible que para los productos con densidades más pesadas que el agua tenga tomarse el
+            corte de agua encima del producto. Si resulta imposible tomar una medida de corte de agua,
+            entonces se deben tomar medidas de muestreo alternativas (ver API MPMS Ch. 3.1A).\n\n
+
+            Cuando se detecta FW en productos cuyas especificaciones son sensibles a la presencia de
+            FW, se debe emitir una LOP al buque a cuenta de esta situación y se debe notificar a todas
+            las partes interesadas de inmediato.\n\n
+
+            <b>9.1.11 Temperaturas de buque</b>\n\n
+
+         Se deben tomar temperaturas individuales en cada compartimiento de la embarcación, deben
+            tomarse simultáneamente con la medición de nivel. Se pueden requerir temperaturas de uno
+            o varios niveles como se describe en API MPMS Ch. 7, cap. 17.2, o Ch. 17.11, según
+            corresponda. Las medidas deben promediarse para determinar la temperatura de cada
+            compartimento. El dispositivo de medición de temperatura debe tener un rango de precisión
+            calibrado que cumpla con el rango de temperatura deseado del material a verificar.\n\n
+
+            NOTA <i>Las temperaturas tomadas en o cerca de elementos calefactores pueden distorsionar
+                los perfiles de temperatura</i>.\n\n
+
+             <b>9.2 Muestreo de buque</b>\n\n
+
+            <b>9.2.1 General</b>\n\n
+
+            .\n\n
+
+
+
+
+
+        </p>\n\n
+
+    </string>
+    <string name="resultado_correcion_por_techo">Resultado Correcion por techo</string>
+    <string name="calcular_correci_n_por_techo">Calcular correción por techo</string>
+    <string name="resultado_gov">Resultado GOV</string>
+    <string name="calcular_gov">Calcular GOV</string>
+    <string name="temperatura_del_liquido">Temperatura del liquido</string>
+    <string name="temp_ambiente">Temp. Ambiente</string>
+    <string name="temp_ref_lamina">Temp. Ref. Lamina</string>
+    <string name="calcular_ctsh">Calcular CTSH</string>
+    <string name="resultado_ctsh">Resultado CTSH</string>
+    <string name="enchaquetado">Enchaquetado?</string>
+    <string name="ingrese_api_a_60_f">Ingrese API a 60°F</string>
+    <string name="resultado_vcf">Resultado VCF</string>
+    <string name="calcular_vcf">Calcular VCF</string>
+    <string name="temp_liq_f">Temp. Liq. °F</string>
+    <string name="temp_amb_f">Temp. Amb. °F</string>
+    <string name="temp_ref_lam_f">Temp. Ref. Lam. °F</string>
+    <string name="ingrese_tov_en_bbls">Ingrese TOV en Bbls</string>
+    <string name="ingrese_fw_en_bbls">Ingrese FW en Bbls</string>
+    <string name="calcular_gsv">Calcular GSV</string>
+    <string name="pick_time">Selecione fecha</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="enviar_update">Enviar Update</string>
+    <string name="tl_buque">TL Buque</string>
+    <string name="consultar">Consultar</string>
+    <string name="nombre_buque">Nombre buque</string>
+    <string name="producto">Producto</string>
+    <string name="operaci_n">Operación</string>
+    <string name="operacion">Operación:</string>
+
+    <string-array name="operacion_array">
+        <item>CARGUE</item>
+        <item>DESCARGUE</item>
+
+    </string-array>
+
+</resources>

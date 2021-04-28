@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+
+<RelativeLayout
+    android:id="@+id/RelativeLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp">
+
+<TextView
+    android:id="@+id/TextUsuario"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Usuario"/>
+
+    <EditText
+        android:id="@+id/EtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextUsuario"
+        android:text="Sandy.chico"/>
+
+
+    <TextView
+        android:id="@+id/TextContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:layout_below="@+id/EtUsuario"/>
+
+    <EditText
+        android:id="@+id/EtContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/TextContraseña"
+        android:text="Proyecto2019"/>
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Ingrear"
+        android:layout_below="@+id/RelativeLogin"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
