@@ -24,7 +24,7 @@ public class Buque extends AppCompatActivity {
         btnVolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Buque.this, MainActivity.class);
+                Intent intent = new Intent(Buque.this, Principal.class);
                 startActivity(intent);
             }
         });
